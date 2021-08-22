@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game-style.css">
+    <title>Battle!</title>
+</head>
+<body>
+
+    <div class="win-modal">
+        <p>שיט...</p>
+        <h1>ניצחת!</h1>
+    </div>
+    <div class="lose-modal">
+        <p>שיט...</p>
+        <h1>הפסדת!</h1>
+    </div>
+
+    <div class="life-points">
+        <div class="player-life"></div>
+        <div class="rival-life"></div>
+    </div>
+
+    <div class="player">
+        <div class="head">
+            <img src="assets/bengvir-player-head.png" alt="ראש הדמות" />
+        </div>
+        <div class="body">
+            <img src="assets/player-body.png" alt="גוף הדמות" />
+        </div>
+    </div>
+    <div class="rival">
+        <div class="head">
+            <img src="assets/bengvir-rival-head.png" alt="ראש היריב" />
+        </div>
+        <div class="body">
+            <img src="assets/rival-body.png" alt="גוף היריב" />
+        </div>
+    </div>
+
+    <script src="./scripts/global.js"></script>
+    <script src="./scripts/game-script.js"></script>
+</body>
+</html>
